@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #5335c0;
+    padding: 32px 0;
+}
+.logo{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    width: 70%;
+    display: inline-block;
+    margin-left: -4px;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li a{
+    color: #4DCCBD;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 24px;
+}
+/* header */
+.banner{
+    background-color: #4DCCBD;
+    
+}
+.banner img{
+    height: 250px;
+    display: inline-block;
+    
+}
+.noi-dung1{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.the-a{
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+}
+.img1{
+    height: 500px;
+    background-color: #2374ab;
+    
+}
+.img1 img{
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+}
+.banner2{
+    background-color: #4DCCBD;
+    height: 250px;
+    
+}
+.noi-dung2{
+    text-align: right;
+    display: inline-block;
+    margin-left: 289px;
+    margin-top: 140px;
+}
+.img2 img{
+    float: right;
+    padding-right: 0;
+    height: 250px;
+    display: inline;
+    padding-top: 15px;
+}
+.the-b{
+    text-align: left;
+    background-color: white;
+    display: inline-block;
+}
+.banner3{
+    background-color: #2374ab;
+    
+}
+.box1{
+    width: 300px;
+    margin: 15 25 15 0px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 20px white;
+    overflow: hidden;
+    float: left;
+    display: block;
+}
+.hinhanh{
+    width: 300px;
+    overflow: hidden;
+}
+.hinhanh img{
+    width: 100%;
+}
+.noi-dung{
+    padding: 15px 20px;
+}
+.noi-dung p{
+    margin-top: 15px;
+}
+.box2{
+    width: 300px;
+    margin: 15px 25 15 auto;
+    border-radius: 20px;
+    box-shadow: 4px 6px 20px white;
+    overflow: hidden;
+    display: inline-block;
+}
+.hinhanh{
+    width: 300px;
+    overflow: hidden;
+}
+.hinhanh img{
+    width: 100%;
+}
+.noi-dung{
+    padding: 15px 20px;
+}
+.noi-dung p{
+    margin-top: 15px;
+}
+
+.box3{
+    width: 300px;
+    margin: 15px 25 15 auto;
+    border-radius: 20px;
+    box-shadow: 4px 6px 20px white;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.hinhanh{
+    width: 300px;
+    overflow: hidden;
+}
+.hinhanh img{
+    width: 100%;
+}
+.noi-dung{
+    padding: 15px 20px;
+}
+.noi-dung p{
+    margin-top: 15px;
+}
+.banner3 a{
+    background-color: white;
+    font-size: 32px;
+    
+}
+.footer{
+    background-color: #4DCCBD;
+}
+.about{
+    width: 40%;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(63, 58, 58);
+    font-size: 20px;
+    
+}
+.quick-menu{
+    width: 20%;
+    display: inline-block;
+    margin-left: -4px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.quick-menu ul{
+    text-align: right;
+    list-style: none;
+}
+.quick-menu li a{
+    color: rgb(63, 58, 58);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.quick-menu1{
+    width: 20%;
+    display: inline-block;
+    margin-left: -4px;
+}
+.quick-menu1 ul{
+    text-align: right;
+    list-style: none;
+}
+.quick-menu1 li a{
+    color: rgb(63, 58, 58);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.quick-menu2{
+    width: 20%;
+    display: inline-block;
+    margin-left: -4px;
+}
+.quick-menu2 ul{
+    text-align: right;
+    list-style: none;
+}
+.quick-menu2 li a{
+    color: rgb(63, 58, 58);
+    text-decoration: none;
+    font-size: 20px;
+}
+.about a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+.boxend{
+    background-color: #5335c0;
+    color: white;
+}
+
